@@ -18,7 +18,7 @@ header {
   height: auto;
   margin-right: 40px;
   margin-top: 40px;
-  max-width: 90px;
+  max-width: 80px;
   width: auto;
 }
 
@@ -50,4 +50,24 @@ h2 {
 
 body {
   background-image: url('/src/images/background.png');
+  color: white;
+  display: flex;
+}
+
+.divmiss {
+  border-color: rgb(249, 249, 250);
+  border-style: hidden;
+  border-width: thin;
+  display: inline-block;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+p {
+  margin: 20px;
+}
+
+.pname {
+  font-size: 20px;
+  font-weight: 700;
 }
