@@ -12,7 +12,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint:styles": "npx stylelint '**/*.css'",
@@ -42,7 +42,7 @@
     "eslint": "^7.32.0",
     "eslint-config-trybe-frontend": "^1.2.2",
     "eslint-plugin-sonarjs": "^0.10.0",
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.8.0",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "4.1.0"

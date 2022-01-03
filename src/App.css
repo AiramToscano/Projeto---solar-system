@@ -1,3 +1,53 @@
 .App {
   text-align: center;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.imagens {
+  height: auto;
+  margin-right: 40px;
+  margin-top: 40px;
+  max-width: 90px;
+  width: auto;
+}
+
+div [ data-testid = 'solar-system' ] {
+  align-items: center;
+  display: inline-block;
+}
+
+div [ data-testid = 'planet-card' ] {
+  align-items: center;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+
+h2 {
+  border-color: rgb(249, 249, 250);
+  border-style: solid;
+  border-width: medium;
+  color: white;
+  font-size: 30px;
+  margin-left: 340px;
+  margin-top: 30px;
+  text-align: center;
+  width: 500px;
+}
+
+body {
+  background-image: url('/src/images/background.png');
+}
